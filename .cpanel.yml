@@ -1,0 +1,8 @@
+---
+  deployment:
+    tasks:
+      - export DEPLOYPATH=/home/aywsolutionweli/public_html/clubtennis.aywsolution.com/
+      - /bin/rsync -av public/ $DEPLOYPATH
+      - export DEPLOYPATH=/home/aywsolutionweli/clubtennis/
+      - /bin/rsync -av ./ $DEPLOYPATH
+
