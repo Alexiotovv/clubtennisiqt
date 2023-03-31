@@ -150,8 +150,9 @@
                         <div class="nav__content">
                             <div class="nav__logo">
                                 <a href="index.html">
-                                    <img src="assets/images/pelota_tennis.png" style="height: 55px;width:55px;" alt="Logo">
-                                    CLUB TENNIS
+                                    {{-- <img src="assets/images/pelota_tennis.png" style="height: 55px;width:55px;" alt="Logo"> --}}
+                                    <img src="assets/images/logo-light.png" style="width: 55px; height:55px;" alt="Logo">
+                                    CLUB TENNIS IQUITOS
                                 </a>
                             </div>
                             <div class="nav__menu">
@@ -255,8 +256,8 @@
                         <h1 class="banner__content-title">Explota tus habilidades en campeonatos</h1>
                         <p class="primary-text banner__content-text">Nuestro Staff siempre dedicado .</p>
                         <div class="banner__content-cta">
-                            <a href="join-club.html" class="cmn-button">Unirme al Club</a>
-                            <a href="about-us.html" class="cmn-button cmn-button--secondary">Nosotros</a>
+                            <a href="#" class="cmn-button">Unirme al Club</a>
+                            <a href="#" class="cmn-button cmn-button--secondary">Nosotros</a>
                         </div>
                     </div>
                 </div>
@@ -275,7 +276,7 @@
                             <div class="col-sm-6 col-lg-3 section__col">
                                 <div class="overview__inner-card">
                                     <div class="overview__inner-card__icon">
-                                        <i class="golftio-ball"></i>
+                                        <img src="../../assets/images/blog/practica_tennis.png" alt="">
                                     </div>
                                     <div class="overview__inner-card__content">
                                         <h5><a href="training-details.html">Prácticas de Tennis</a></h5>
@@ -286,10 +287,11 @@
                             <div class="col-sm-6 col-lg-3 section__col">
                                 <div class="overview__inner-card">
                                     <div class="overview__inner-card__icon">
-                                        <i class="golftio-shot-great-upper"></i>
+                                        
+                                        <img src="../../assets/images/blog/campeonato_tennis.png" alt="">
                                     </div>
                                     <div class="overview__inner-card__content">
-                                        <h5><a href="training-details.html">Campeonatos</a></h5>
+                                        <h5><a href="#">Campeonatos</a></h5>
                                         <p class="secondary-text">Campeonatos con premios</p>
                                     </div>
                                 </div>
@@ -297,18 +299,18 @@
                             <div class="col-sm-6 col-lg-3 section__col">
                                 <div class="overview__inner-card">
                                     <div class="overview__inner-card__icon">
-                                        <i class="golftio-gym"></i>
+                                        <img src="../../assets/images/blog/gimnasio_tennis.png" alt="">
                                     </div>
                                     <div class="overview__inner-card__content">
-                                        <h5><a href="training-details.html">Gimnasio</a></h5>
-                                        <p class="secondary-text">Gimnasio con los mejores equipos</p>
+                                        <h5><a href="#">Gimnasios</a></h5>
+                                        <p class="secondary-text">Gimnasios con los mejores equipos</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-sm-6 col-lg-3 section__col">
                                 <div class="overview__inner-card">
                                     <div class="overview__inner-card__icon">
-                                        <i class="golftio-flag"></i>
+                                        <img src="../../assets/images/blog/eventos_tennis.png" alt="">
                                     </div>
                                     <div class="overview__inner-card__content">
                                         <h5><a href="training-details.html">Eventos</a></h5>
@@ -322,7 +324,7 @@
                 </div>
                 <div class="col-xl-2 col-xxl-3 d-none d-xl-block">
                     <div class="overview__thumb text-center">
-                        <img src="assets/images/golf-ball.png" alt="Image">
+                        <img src="assets/images/pelota_tennis.png" alt="Image">
                     </div>
                 </div>
             </div>
@@ -342,36 +344,36 @@
                 </div>
                 <div class="col-lg-6 col-xl-6 offset-xl-1 section__col">
                     <div class="section__content">
-                        <h5 class="section__content-sub-title">About us</h5>
+                        {{-- <h5 class="section__content-sub-title">About us</h5> --}}
                         <h2 class="section__content-title">Canchas Sintéticas Nuevas</h2>
                         <p class="section__content-text">Tenemos muchos beneficios para los socios, canchas de fulbito,
                             basket, tennis, gimnasio  mucho más.</p>
                         <div class="about__section-inner">
                             <div class="about__section-inner__single">
                                 <div class="about__section-inner__single-thumb">
-                                    <i class="golftio-flag"></i>
+                                    <img src="../../assets/images/blog/equipo_profesional.png" style="width: 50px; height:50px;" alt="">
                                 </div>
                                 <div class="about__section-inner__single-content">
-                                    <h5>Professional Team</h5>
-                                    <p class="secondary-text">Modern & latest equipment with expert coaching</p>
+                                    <h5>Equipos Profesionales</h5>
+                                    <p class="secondary-text">Modernos equipos para el entrenamiento</p>
                                 </div>
                             </div>
                             <div class="about__section-inner__single">
                                 <div class="about__section-inner__single-thumb">
-                                    <i class="golftio-shot-great-upper"></i>
+                                    <img src="../../assets/images/blog/entrenamiento_profesional.png" style="width: 50px; height:50px;" alt="">
                                 </div>
                                 <div class="about__section-inner__single-content">
-                                    <h5>Professional Trainings</h5>
-                                    <p class="secondary-text">Modern & latest equipment with expert coaching</p>
+                                    <h5>Entrenamiento Profesional</h5>
+                                    <p class="secondary-text">Expertos entrenadores para los deportes maspopulares</p>
                                 </div>
                             </div>
                             <div class="about__section-inner__single">
                                 <div class="about__section-inner__single-thumb">
-                                    <i class="golftio-sticks"></i>
+                                    <img src="../../assets/images/blog/practica_profesional.png" style="width: 50px; height:50px;" alt="">
                                 </div>
                                 <div class="about__section-inner__single-content">
-                                    <h5>Practice Facilities</h5>
-                                    <p class="secondary-text">Modern & latest equipment with expert coaching</p>
+                                    <h5>Instalaciones de Prácticas</h5>
+                                    <p class="secondary-text">Amplios espacios para atletas de alto rendimiento</p>
                                 </div>
                             </div>
                         </div>
@@ -391,34 +393,33 @@
             <div class="row section__row">
                 <div class="col-lg-6 section__col">
                     <div class="section__content">
-                        <h5 class="section__content-sub-title">Club View</h5>
-                        <h2 class="section__content-title">Play and enjoy our club for free</h2>
-                        <p class="section__content-text">We offer a lot of courses of varying difficulty and beautiful
-                            scenery that golfers of all skill levels can enjoy. You will learn golf from professionals
-                            with our competent and experienced staff. You will have a great fun with our magnificent
-                            illuminated field.</p>
+                        {{-- <h5 class="section__content-sub-title">Club View</h5> --}}
+                        <h2 class="section__content-title">Juega y Disfruta en Nuestro Club</h2>
+                        <p class="section__content-text">Ofrecemos muchos beneficios a nuestros asociados,
+                            más de 50 competiciones al año. Academias de los deportes mas populares.
+                        </p>
                         <div class="section__content-inner">
                             <ul>
-                                <li><i class="golftio-pin-checked"></i>300+ Golf Competitions</li>
-                                <li><i class="golftio-pin-checked"></i>Proficient on Golf</li>
-                                <li><i class="golftio-pin-checked"></i>Amateur Championships</li>
-                                <li><i class="golftio-pin-checked"></i>Individual Support </li>
+                                <li><i class="golftio-pin-checked"></i>50+ Competiciones de Tennis</li>
+                                <li><i class="golftio-pin-checked"></i>Asistencia en los Deporte</li>
+                                <li><i class="golftio-pin-checked"></i>Amateur Championships Tennis</li>
+                                <li><i class="golftio-pin-checked"></i>Asistencia Personalizada</li>
                             </ul>
                         </div>
                         <div class="section__content-cta">
-                            <a href="join-club.html" class="cmn-button">Join Our Club</a>
+                            <a href="join-club.html" class="cmn-button">Unirse al Club</a>
                         </div>
                     </div>
                 </div>
-                {{-- <div class="col-lg-6 col-xl-5 offset-xl-1 section__col d-none d-lg-block">
+                <div class="col-lg-6 col-xl-5 offset-xl-1 section__col d-none d-lg-block">
                     <div class="club__thumb wow fadeInUp" data-wow-duration="0.4s">
                         <img src="assets/images/club-thumb.png" alt="Image" class="unset">
                         <div class="club__thumb-experience">
-                            <h3><span class="odometer" data-odometer-final="30"></span> <span>+</span></h3>
-                            <p>Years <br> of experience</p>
+                            <h3><span class="odometer" data-odometer-final="20"></span> <span>+</span></h3>
+                            <p>Años <br> de fundación</p>
                         </div>
                     </div>
-                </div> --}}
+                </div>
             </div>
         </div>
     </section>
@@ -448,25 +449,25 @@
                                 </div> --}}
                             </div>
                             <div class="training__slider-single__content">
-                                <h5>Body Position</h5>
-                                <p class="secondary-text">We teach you how to get the right body position in the
-                                    strokes. You can contact us for any question you may have about this course.</p>
-                                <a href="training-details.html" class="cmn-button">View more</a>
+                                <h5>Canchas</h5>
+                                <p class="secondary-text">Enseñamos como obtener las hailidades para éste deporte 
+                                    tan popular. Puedes contactarnos para brindarte mayor información.</p>
+                                <a href="training-details.html" class="cmn-button">Leer Más</a>
                             </div>
                         </div>
                         <div class="training__slider-single">
                             <div class="training__slider-single__thumb">
                                 <a href="training-details.html"><img src="assets/images/training/two.png"
                                         alt="Image"></a>
-                                <div class="training__slider-single__thumb-small">
+                                {{-- <div class="training__slider-single__thumb-small">
                                     <i class="golftio-shot-upper"></i>
-                                </div>
+                                </div> --}}
                             </div>
                             <div class="training__slider-single__content">
-                                <h5>Body Rotation</h5>
+                                <h5>Equipos/h5>
                                 <p class="secondary-text">We teach you how to get the right body position in the
                                     strokes. You can contact us for any question you may have about this course.</p>
-                                <a href="training-details.html" class="cmn-button">View more</a>
+                                <a href="#" class="cmn-button">Leer Más</a>
                             </div>
                         </div>
                         <div class="training__slider-single">
@@ -478,10 +479,10 @@
                                 </div> --}}
                             </div>
                             <div class="training__slider-single__content">
-                                <h5>Chip Shot</h5>
+                                <h5>Meidas Oficiales</h5>
                                 <p class="secondary-text">We teach you how to get the right body position in the
                                     strokes. You can contact us for any question you may have about this course.</p>
-                                <a href="training-details.html" class="cmn-button">View more</a>
+                                <a href="#" class="cmn-button">Leer Más</a>
                             </div>
                         </div>
                         <div class="training__slider-single">
@@ -496,7 +497,7 @@
                                 <h5>Body Position</h5>
                                 <p class="secondary-text">We teach you how to get the right body position in the
                                     strokes. You can contact us for any question you may have about this course.</p>
-                                <a href="training-details.html" class="cmn-button">View more</a>
+                                <a href="#" class="cmn-button">Leer Más</a>
                             </div>
                         </div>
                         <div class="training__slider-single">
@@ -511,22 +512,22 @@
                                 <h5>Body Rotation</h5>
                                 <p class="secondary-text">We teach you how to get the right body position in the
                                     strokes. You can contact us for any question you may have about this course.</p>
-                                <a href="training-details.html" class="cmn-button">View more</a>
+                                <a href="#" class="cmn-button">Leer Más</a>
                             </div>
                         </div>
                         <div class="training__slider-single">
                             <div class="training__slider-single__thumb">
                                 <a href="training-details.html"><img src="assets/images/training/three.png"
                                         alt="Image"></a>
-                                <div class="training__slider-single__thumb-small">
+                                {{-- <div class="training__slider-single__thumb-small">
                                     <i class="golftio-shot-done"></i>
-                                </div>
+                                </div> --}}
                             </div>
                             <div class="training__slider-single__content">
                                 <h5>Chip Shot</h5>
                                 <p class="secondary-text">We teach you how to get the right body position in the
                                     strokes. You can contact us for any question you may have about this course.</p>
-                                <a href="training-details.html" class="cmn-button">View more</a>
+                                <a href="#" class="cmn-button">Leer Más</a>
                             </div>
                         </div>
                     </div>
@@ -874,10 +875,9 @@
             <div class="row justify-content-center">
                 <div class="col-lg-7">
                     <div class="section__header">
-                        <h5 class="section__header-sub-title">Professional shop</h5>
-                        <h2 class="section__header-title">Featured products</h2>
-                        <p>Golftio Sports Club is a golf club with a history that goes back to XX century. From a
-                            cricket club to soccer tournaments,</p>
+                        {{-- <h5 class="section__header-sub-title">Professional shop</h5> --}}
+                        <h2 class="section__header-title">Tienda de Productos</h2>
+                        <p>Tenemos a la venta los implementos deportivos para practiques tu deporte favorito</p>
                     </div>
                 </div>
             </div>
@@ -890,7 +890,7 @@
                             </a>
                         </div>
                         <div class="shop__card-info">
-                            <h5><a href="product-details.html">Training Stick</a></h5>
+                            <h5><a href="product-details.html">Raqueta </a></h5>
                             <p>$165.00 <span>$252.00</span></p>
                         </div>
                         <div class="shop__card-review">
@@ -910,11 +910,11 @@
                     <div class="shop__card">
                         <div class="shop__card-thumb">
                             <a href="product-details.html">
-                                <img src="assets/images/shop/ball.png" alt="Image">
+                                <img src="assets/images/shop/ball.jpg" alt="Image">
                             </a>
                         </div>
                         <div class="shop__card-info">
-                            <h5><a href="product-details.html">Golf Ball</a></h5>
+                            <h5><a href="product-details.html">Pelota Tennis</a></h5>
                             <p>$165.00 <span>$252.00</span></p>
                         </div>
                         <div class="shop__card-review">
@@ -925,8 +925,8 @@
                             <i class="golftio-star"></i>
                         </div>
                         <div class="shop__card-cta">
-                            <a href="cart.html" class="cmn-button">Add Cart</a>
-                            <a href="sign-up.html" class="cmn-button cmn-button--secondary">Buy Now</a>
+                            <a href="cart.html" class="cmn-button">Agregar a Carrito</a>
+                            <a href="sign-up.html" class="cmn-button cmn-button--secondary">Comprar Ahora</a>
                         </div>
                     </div>
                 </div>
@@ -934,11 +934,11 @@
                     <div class="shop__card">
                         <div class="shop__card-thumb">
                             <a href="product-details.html">
-                                <img src="assets/images/shop/gloves.png" alt="Image">
+                                <img src="assets/images/shop/gloves.jpg" alt="Image">
                             </a>
                         </div>
                         <div class="shop__card-info">
-                            <h5><a href="product-details.html">White Gloves</a></h5>
+                            <h5><a href="product-details.html">Pulsera Sudadera</a></h5>
                             <p>$165.00 <span>$252.00</span></p>
                         </div>
                         <div class="shop__card-review">
@@ -949,8 +949,8 @@
                             <i class="golftio-star"></i>
                         </div>
                         <div class="shop__card-cta">
-                            <a href="cart.html" class="cmn-button">Add Cart</a>
-                            <a href="sign-up.html" class="cmn-button cmn-button--secondary">Buy Now</a>
+                            <a href="cart.html" class="cmn-button">Agregar al Carrito</a>
+                            <a href="sign-up.html" class="cmn-button cmn-button--secondary">Comprar Ahora</a>
                         </div>
                     </div>
                 </div>
@@ -958,7 +958,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="section__cta">
-                        <a href="shop.html" class="cmn-button">See all products</a>
+                        <a href="#" class="cmn-button">Ver todos los productos</a>
                     </div>
                 </div>
             </div>
@@ -967,7 +967,7 @@
     <!-- ==== / shop section end ==== -->
 
     <!-- ==== team section start ==== -->
-    <section class="section team wow fadeInUp" data-wow-duration="0.4s">
+    {{-- <section class="section team wow fadeInUp" data-wow-duration="0.4s">
         <div class="container">
             <div class="row section__row align-items-center">
                 <div class="col-lg-6 col-xl-6 section__col">
@@ -1100,11 +1100,11 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
     <!-- ==== / team section end ==== -->
 
     <!-- ==== join club section start ==== -->
-    <section class="section join-club">
+    {{-- <section class="section join-club">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
@@ -1142,11 +1142,11 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
     <!-- ==== / join club section end ==== -->
 
     <!-- ==== sponsor section start ==== -->
-    <div class="sponsor wow fadeInUp" data-wow-duration="0.4s">
+    {{-- <div class="sponsor wow fadeInUp" data-wow-duration="0.4s">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -1197,7 +1197,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
     <!-- ==== / sponsor section end ==== -->
 
     <!-- ==== footer start ==== -->
@@ -1207,11 +1207,10 @@
                 <div class="col-md-6 col-lg-4 col-xl-3 section__col">
                     <div class="footer__single">
                         <a href="index.html">
-                            <img src="assets/images/logo-light.png" alt="Logo">
+                            <img src="assets/images/logo-light.png" style="width: 50px; height:50px;" alt="Logo">
                         </a>
                         <div class="footer__single-content">
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                                has been the industry...</p>
+                            <p>Club Tennis de iquitos fue fundado en la ciudad de Iquitos...</p>
                             <div class="social">
                                 <a href="#">
                                     <i class="fa-brands fa-facebook-f"></i>
@@ -1231,44 +1230,42 @@
                 </div>
                 <div class="col-md-6 col-lg-2 col-xl-3 section__col">
                     <div class="footer__single">
-                        <h5>Quick Links</h5>
+                        <h5>Enlaces de Interés</h5>
                         <div class="footer__single-content">
                             <ul>
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="about-us.html">About Us</a></li>
-                                <li><a href="facility.html">Facility</a></li>
-                                <li><a href="shop.html">Shop</a></li>
-                                <li><a href="contact-us.html">Contact</a></li>
+                                <li><a href="#">Inicio</a></li>
+                                <li><a href="#">Acerca de Nosotros</a></li>                                
+                                <li><a href="#">Tienda</a></li>
+                                <li><a href="#">Contacto</a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3 col-xl-3 section__col">
                     <div class="footer__single">
-                        <h5>Address</h5>
+                        <h5>Contacto</h5>
                         <div class="footer__single-content">
                             <div class="footer__single-content__group">
-                                <p>(480) 555-0103</p>
+                                <p>(480) 999 233 233</p>
                                 <p>(406) 555-0120</p>
                             </div>
                             <div class="footer__single-content__group">
-                                <p><a href="https://pixner.net/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="385c5d59565659165b4d4a4c514b785d40595548545d165b5755">[email&#160;protected]</a></p>
-                                <p><a href="https://pixner.net/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="0c68696e7e6d22646360784c69746d617c6069226f6361">[email&#160;protected]</a></p>
+                                <p><a href="https://pixner.net/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="0c68696e7e6d22646360784c69746d617c6069226f6361">info@clubtennisiquitos.com</a></p>
                             </div>
                             <div class="footer__single-content__group">
-                                <p>285 Great North Road, Grey Lynn, Auckland 1021</p>
+                                <p>Calvo de Araujo 12, Iquitos - Loreto - Perú</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3 col-xl-3 section__col">
-                    <h5>Newsletter</h5>
+                    <h5>Boletín</h5>
                     <div class="footer__single">
                         <div class="footer__single-content">
-                            <p>Subscribe our newsletter to get our latest update & news </p>
+                            <p>Suscríbete a nuestro boletín informativo y recibe las últimas noticias </p>
                             <form action="#" method="post" name="newsletterForm">
                                 <div class="newsletter">
-                                    <input type="email" name="news-mail" id="newsMail" placeholder="Your email address"
+                                    <input type="email" name="news-mail" id="newsMail" placeholder="tucorreo@gmail.com"
                                         required>
                                     <button type="submit">
                                         <i class="golftio-paper-plane"></i>
@@ -1285,7 +1282,7 @@
                     <div class="copyright">
                         <div class="row align-items-center">
                             <div class="col-lg-6">
-                                <p>Copyright &copy; <span id="copyYear"></span> Golftio. All Rights Reserved </p>
+                                <p>Copyright &copy; <span id="copyYear"></span> Club Tennis. All Rights Reserved </p>
                             </div>
                             <div class="col-lg-6">
                                 <ul>
